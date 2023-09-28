@@ -23,19 +23,7 @@ def main():
     st.write(f"Product Pricing Relative to Market: {product_pricing}%")
     st.write(f"Business Efficiency: {efficiency}%")
     
-    # Uncomment the section below if you'll be using Plaid integration.
-    """
-    st.write("Connect to Bank Account:")
-    
-    @st.cache
-    def connect_to_bank():
-        # Setup and connect to Plaid here.
-        # For simplicity, we'll just assume it's connected and return a sample balance.
-        return {"balance": 5000}
-    
-    bank_data = connect_to_bank()
-    st.write(f"Bank Balance: ${bank_data['balance']}")
-    """
+   
 
     # More features and data analytics can be added below, 
     # like decision-making algorithms based on the input values.
